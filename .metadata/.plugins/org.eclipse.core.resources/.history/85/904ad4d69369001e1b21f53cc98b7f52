@@ -1,0 +1,15 @@
+package org.selenium;
+
+public class Javaprogram {
+  public static void main(String[]args){
+	   int temp=123;
+	   
+	   for(int i=0;i<=0;i++) {
+		   if(i%2==1 ) {
+			   temp=temp+i;
+		   }
+	   }
+	 System.out.println(temp);
+}
+         
+}

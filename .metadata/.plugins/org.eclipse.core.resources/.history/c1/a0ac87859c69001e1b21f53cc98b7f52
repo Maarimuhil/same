@@ -1,0 +1,26 @@
+package org.selenium;
+
+
+public class Javaprogram {
+	
+	public void javaprogram(  int id) {
+		System.out.println("studentroll no:"+id);
+		
+	}
+	public void javaprogram(String name ,int id) {
+		System.out.println("studentname:"+name);
+		System.out.println("studentroll no:"+id);
+		
+	}
+        public static void main(String[]args){
+              Javaprogram ss=new Javaprogram();
+              
+              ss.javaprogram(111);
+              ss.javaprogram("mari" ,123);
+              
+
+
+        
+       }
+  }         
+

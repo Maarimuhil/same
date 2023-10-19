@@ -1,0 +1,29 @@
+package org.same;
+
+public class Loop {
+	public static void main(String[] args) {
+
+		String s = "Java is Simple";
+
+		String s1 = "";
+
+		String s2 = "";
+
+		String s3 = "";
+
+		String[] s4 = s.split(" ");
+
+		for (int i = s4[0].length() - 1; i >= 0; i--) {
+			char c = s4[0].charAt(i);
+		}
+		for (int i = s4[1].length() - 1; i >= 0; i--) {
+			char c = s4[1].charAt(i);
+		}
+		for (int i = s4[2].length() - 1; i >= 0; i--) {
+			char c = s4[2].charAt(i);
+		}
+
+		System.out.println(s4[0] + " " + s4[1] + " " + s4 + " ");
+
+	}
+}

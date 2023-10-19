@@ -1,0 +1,9 @@
+package org.selenium;
+import.java.util;
+public class Javaprogram {
+  public static void main(String[]args){
+	  Scanner sc=new Scanner(System.in);
+	   
+	   //
+  }         
+}

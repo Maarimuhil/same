@@ -1,0 +1,20 @@
+package org.same;
+
+public class Amstrong {
+   public static void main(String[] args) {
+	    for(int i=2;i<=1000;i++) {
+	    	int a=0,j=0;
+	    	int n=a;
+	    	while(a>0) {
+	    		i=a%10;
+	    		j=(i*i*i)+j;
+	    		a=a/10;
+	    	
+	    }
+	    	if(a==j) {
+	    		System.out.println(j);
+	    	}
+	    }   
+}
+}
+   

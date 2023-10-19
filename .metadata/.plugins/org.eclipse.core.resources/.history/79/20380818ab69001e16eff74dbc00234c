@@ -1,0 +1,32 @@
+package org.selenium;
+
+import java.util.Scanner;
+
+public class Javaprogram {
+	
+	
+        public static void main(String[]args){
+              int a,n ,i=0,j=0;
+              Scanner sc=new Scanner(System.in);
+              System.out.println("enter a number");
+              n=sc.nextInt();
+              a=n;
+              
+              while (a>0) {
+            	  i=a%10;
+            	  j=j+(i*i*i);
+            	  a=a/10;
+            	  
+              }
+              if (n==j) {
+            	  System.out.println("Amstrong number");
+            	  
+              }
+              else {
+            	  System.out.println("not a Amstrong number");
+            	  
+              }
+        
+       }
+  }         
+	
